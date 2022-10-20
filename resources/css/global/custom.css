@@ -1,0 +1,196 @@
+/* Forms */
+.auth-form {
+	width: 20rem;
+}
+.form-response p,
+.form-response {
+	display:block;
+	font-size:13px;
+	color:#FF0000;
+}
+.form-response.success {
+	color:#009900;
+	padding-left:16px;
+}
+.form-response.error {
+	color:#FF0000;
+	padding-left:16px;
+}
+/* END Forms */
+
+/* Images */
+.image-ratio {
+	position:relative;
+	float:left;
+	width:100%;
+	height:0;
+	padding-bottom:100% ; /* % of width, defines aspect ratio*/
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+.half-image-ratio {
+	position:relative;
+	width:100%;
+	height:0;
+	padding-bottom:50% ; /* % of width, defines aspect ratio*/
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+/* END images */
+
+/* Videos */
+/* Responsive video */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-wrapper iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+/* END Videos */
+
+/* Dynamic content */
+.dynamic-content {
+	clear:both;
+}
+.dynamic-content h2,
+.dynamic-content h3,
+.dynamic-content h4 {
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.dynamic-content img[style="float:left;"],
+.dynamic-content img[style="float:left;"],
+.dynamic-content img[style="float: left;"],
+.dynamic-content img[style="float: left;"] {
+	margin:0 15px 15px 0;
+}
+.dynamic-content img[style="float:right;"],
+.dynamic-content img[style="float:right;"],
+.dynamic-content img[style="float: right;"],
+.dynamic-content img[style="float: right;"] {
+	margin:0 0 15px 15px;
+}
+/*
+.dynamic-content img:not(.card-img-top) {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+*/
+/*
+Set all images to the same height, outputed in ".dynamic-content", except the ones that we explicitly set as "no-cover"
+becausethey will fill up the space equal to the element next to them
+*/
+/* .dynamic-content img:not(.no-cover) {
+	width:100%;
+	height:100%;
+	object-fit:cover;
+} */
+.dynamic-content p {
+	padding:0;
+	margin:0;
+}
+/* .dynamic-content ul,
+.dynamic-content ol {
+	padding:0;
+	margin:0;
+	list-style-position:inside;
+} */
+.dynamic-content table {
+	width:100%;
+	/*border:0 none;*/
+}
+/* .dynamic-content td,
+.dynamic-content thead {
+	border:#DDDDDD solid 1px;
+	border:0 none;
+} */
+/* END Dynamic content */
+
+/* Sortable placeholders */
+.sortable-table-placeholder {
+	height:100%;
+	background:#F5F5F5;
+	cursor:move;
+}
+.sortable-thumbnail-placeholder {
+	position:relative;
+	float:left;
+	height:100%;
+	padding:0;
+	border:1px solid #E4E4E4;
+	background:#F5F5F5;
+	cursor:move;
+}
+/* END Sortable placeholders */
+
+/* Lists */
+/* ul {
+	list-style-image:url('../../../public/images/li.svg');
+} */
+.nested-levels {
+	padding:0 0 0 15px;
+	/*list-style-image:url('../../images/li.svg');*/
+}
+/* END Lists */
+
+/* Butons */
+.no-button {
+	background-image:none;
+	background:transparent;
+	border:0 none;
+	cursor:pointer;
+	display:inline-block;
+	line-height:1;
+	margin-bottom:0;
+	padding:0 0 2px 0;
+	text-align:center;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+/* END Butons */
+
+/* Responsive Youtube video */
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* Hide invisible recaptcha badge */
+.grecaptcha-badge {
+	display:none;
+}
+/* END Hide invisible recaptcha badge */
+
+/* Autocomplete */
+.ui-autocomplete {
+	 z-index: 9999 !important;
+}
+.ui-menu-item .ui-menu-item-wrapper {
+	color: #000000;
+	border: none !important;
+	background-color: #FFFFFF;
+}
+.ui-menu-item .ui-menu-item-wrapper:hover {
+	background-color: #139a15;
+	color: #FFFFFF;
+}
+/* END Autocomplete */

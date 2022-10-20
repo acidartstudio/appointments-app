@@ -1,0 +1,17 @@
+/*
+!app/
+!.gitignore
+
+
+# Ignore and exclude from ignoring files recursively
+# /*
+# !app/
+
+# app/*
+# !app/public/
+
+# app/public/*
+# !app/public/images/
+
+# app/public/images/*
+# !app/public/images/default

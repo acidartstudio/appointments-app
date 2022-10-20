@@ -1,0 +1,51 @@
+/*!
+  * Bootstrap v5.1.3 (https://getbootstrap.com/)
+  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+
+/*!
+ * Krajee Font Awesome Theme configuration for bootstrap-star-rating.
+ * This file must be loaded after 'star-rating.js'.
+ *
+ * @see http://github.com/kartik-v/bootstrap-star-rating
+ * @author Kartik Visweswaran <kartikv2@gmail.com>
+ */
+
+/*!
+ * bootstrap-star-rating v4.0.6
+ * http://plugins.krajee.com/star-rating
+ *
+ * Author: Kartik Visweswaran
+ * Copyright: 2013 - 2019, Kartik Visweswaran, Krajee.com
+ *
+ * Licensed under the BSD 3-Clause
+ * https://github.com/kartik-v/bootstrap-star-rating/blob/master/LICENSE.md
+ */
+
+/*!
+ * ihavecookies - jQuery plugin for displaying cookie/privacy message
+ * v0.3.2
+ *
+ * Copyright (c) 2018 Ketan Mistry (https://iamketan.com.au)
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ */
+
+/*! jQuery UI - v1.12.1 - 2018-04-21
+* http://jqueryui.com
+* Includes: widget.js, position.js, data.js, disable-selection.js, keycode.js, scroll-parent.js, unique-id.js, widgets/draggable.js, widgets/sortable.js, widgets/autocomplete.js, widgets/datepicker.js, widgets/menu.js, widgets/mouse.js
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+
+/*! modernizr 3.6.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-backgroundcliptext-boxshadow-csstransforms3d-csstransitions-history-svg-video-domprefixes-mq-prefixed-prefixes-setclasses-shiv-testallprops-teststyles !*/
+
+/**
+ * jQuery gMap - Google Maps API V3
+ *
+ * @license MIT License; http://www.opensource.org/licenses/mit-license.php
+ * @url   http://github.com/marioestrada/jQuery-gMap
+ * @author  Mario Estrada <me@mario.ec> based on original plugin by Cedric Kastner <cedric@nur-text.de>
+ * @version 2.1.5
+ */

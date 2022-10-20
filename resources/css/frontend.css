@@ -1,0 +1,16 @@
+@import 'frontend/custom.css';
+
+/* Vendor */
+@import 'frontend/core/bootstrap.css';
+@import 'frontend/fonts/fontawesome/fontawesome.css';
+
+/* Theme */
+@import 'frontend/theme/theme.css';
+@import 'frontend/theme/theme_elements.css';
+@import 'frontend/theme/theme_blog.css';
+@import 'frontend/theme/theme_shop.css';
+@import 'frontend/theme/theme_custom.css';
+
+/* Skins */
+@import 'frontend/theme/skins/default.css';
+@import 'frontend/custom.css';

@@ -1,0 +1,9 @@
+require('./backend/core/bootstrap_bundle.js');
+require('./backend/theme/theme.js');
+require('./backend/plugins/blockui.js');
+require('./backend/plugins/select2.js');
+require('./backend/plugins/form_select2.js');
+require('./backend/plugins/uniform.js');
+require('./backend/plugins/form_checkboxes_radios.js');
+require('./backend/plugins/form_inputs.js');
+require('./backend/custom.js');

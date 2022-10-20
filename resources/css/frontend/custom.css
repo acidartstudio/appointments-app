@@ -1,0 +1,198 @@
+/* Native elements */
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #777777;
+	font-size: 17px;
+	font-weight: 400;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #777777;
+}
+form label {
+	font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#142E54;
+	font-weight:500;
+	line-height: 1;
+}
+h1 {
+	font-size:30px;
+}
+h2 {
+	font-size: 25px;
+	margin: 30px 0;
+}
+h3 {
+	text-transform:none;
+}
+a {
+	color: #142E54;
+}
+a:hover h2,
+a h2:hover {
+	text-decoration:none;
+}
+/* END Native elements */
+
+/* Background */
+.bg-primary,
+.bg-color-primary {
+	background-color: #142E54 !important;
+}
+.bg-secondary,
+.bg-color-secondary {
+	background-color: #F1D66F !important;
+}
+.bg-tertiary,
+.bg-color-tertiary {
+	background-color: #142E54 !important;
+}
+.bg-quaternary,
+.bg-color-quaternary {
+	background-color: #F1D66F !important;
+}
+
+/* Buttons */
+html .btn-primary,
+html .btn-secondary,
+html .btn-tertiary,
+html .btn-quaternary,
+html .btn-info,
+html .btn-warning,
+html .btn-danger {
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 1em;
+	text-transform: none;
+	padding: 10px 40px;
+}
+html .btn-primary {
+	background: #142E54;
+	border: 0 none;
+}
+html .btn-primary:hover:not(.bg-transparent),
+html .btn-primary.hover:not(.bg-transparent),
+html .btn-primary:hover,
+html .btn-primary.hover,
+html .btn-primary:active,
+html .btn-primary.active {
+	background-color: #F1D66F;
+	color: #142E54;
+}
+html .btn-secondary {
+	background: #F1D66F;
+	border: 0 none;
+}
+html .btn-tertiary {
+	background: #142E54;
+	border: 0 none;
+}
+html .btn-tertiary:hover:not(.bg-transparent),
+html .btn-tertiary.hover:not(.bg-transparent),
+html .btn-tertiary:hover,
+html .btn-tertiary.hover,
+html .btn-tertiary:active,
+html .btn-tertiary.active {
+	background-color: #142E54;
+	border-color: #142E54;
+	color: #FFFFFF;
+}
+.btn-danger {
+	background-color: #F00000;
+}
+.btn-danger:hover,
+.btn-danger.hover {
+	background-color: #B10F0F;
+	border-color: #B10F0F;
+}
+html body .btn-light,
+html body .btn-outline.btn-light {
+	border-color: #000000;
+	color: #000000;
+}
+/* Override the <button> dropdown-item styles on frontend, so that they match the ones found on <a> tags */
+.dropdown-item {
+	padding:.25rem 0.65rem;
+	color:#999999;
+}
+/* END Buttons */
+
+/* Forms */
+.form-control {
+	height:3em;
+}
+/* END Forms */
+
+/* Tooltip */
+.tooltip-inner {
+	background-color: #0e7b95;
+	font-size:12px;
+}
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.tooltip.bs-tooltip-top .arrow::before {
+	border-top-color: #142E54;
+}
+.tooltip.bs-tooltip-auto[x-placement^=right] .arrow::before,
+.tooltip.bs-tooltip-right .arrow::before {
+	border-right-color: #142E54;
+}
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.tooltip.bs-tooltip-bottom .arrow::before {
+	border-bottom-color: #142E54;
+}
+.tooltip.bs-tooltip-auto[x-placement^=left] .arrow::before,
+.tooltip.bs-tooltip-left .arrow::before {
+	border-left-color: #142E54;
+}
+/* END Tooltip */
+
+/* Alerts */
+.alert a,
+.alert a:hover {
+	text-decoration:underline;
+}
+/* END Alerts */
+
+/* Footer */
+#footer {
+	border-top: 0;
+	margin-top: 0;
+	color: #142E54;
+}
+#footer p,
+#footer a,
+#footer a:not(.btn):not(.no-footer-css) {
+	color: #142E54;
+}
+
+/* Autocomplete */
+.ui-menu-item .ui-menu-item-wrapper:hover {
+	background-color: #142E54;
+	color: #FFFFFF;
+}
+/* END Autocomplete */
+
+/* Scrool to top */
+html .scroll-to-top {
+	background: #142E54;
+}
+/* END scrool to top */
+
+@media (max-width: 575px) {
+	/* Table */
+	.table> :not(caption)>*>* {
+		padding: 0.2rem 0.2rem;
+	}
+	/* END Table */
+}
+@media (min-width: 576px) AND (max-width:767px) {
+}
+@media (min-width: 768px) AND (max-width: 991px) {
+}
+@media (min-width: 992px) AND (max-width: 1199px){
+}
+@media (min-width: 1200px) {
+}

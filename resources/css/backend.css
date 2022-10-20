@@ -1,0 +1,13 @@
+@import 'backend/core/bootstrap.css';
+@import 'backend/theme/bootstrap.css';
+@import 'backend/theme/layout.css';
+@import 'backend/theme/components.css';
+@import 'backend/theme/colors.css';
+@import 'backend/fonts/icomoon/styles.css';
+/* TinyMCE - Note: there is a bug that will render errors in the console, although the path is correct. */
+@import 'backend/plugins/tinymce/skins/ui/oxide/skin.min.css';
+@import 'backend/plugins/tinymce/skins/ui/oxide/content.min.css';
+@import 'backend/plugins/tinymce/skins/content/default/content.min.css';
+
+
+@import 'backend/custom.css';
