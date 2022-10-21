@@ -2961,15 +2961,8 @@ $(document).ready(function () {
     $(this).find('#' + activeCollapseSubmenuGroup).addClass('nav-item-open');
     $(this).find('#' + activeCollapseSubmenuGroup + '>ul').css('display', 'block');
   }
-  /*  Edit appointment form */
-
-
-  $('.edit-appointment-form').validate({
-    rules: {
-      status: 'required'
-    }
-  });
   /* *** Change the status of an appointment form, via ajax *** */
+
 
   $(".edit-appointment-form").submit(function (e) {
     e.preventDefault(); // avoid to execute the actual submit of the form.
