@@ -30,6 +30,9 @@ Route::middleware('auth', 'admin')->group(function () {
 
 	// We'll save some code by not prefixing the route names in backend, only in frontend
 	// Appointments
+	Route::put('/admin/appointments/restore/{category}', [BackendAppointmentController::class, 'restore'])
+		->name('appointments.restore');
+
 	Route::get('/admin/appointments/search', [BackendAppointmentController::class, 'search'])
 		->name('appointments.search');
 

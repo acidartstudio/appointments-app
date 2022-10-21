@@ -94,7 +94,7 @@
 														{{ __('appointments.edit') }}
 													</a>
 
-													<form action="route('appointments.destroy', $appointment->id)" method="POST">
+													<form action="{{ route('appointments.destroy', $appointment->id) }}" method="POST">
 														@csrf
 														@method('DELETE')
 														<button type="submit" name="submit" value="submit" class="dropdown-item"

@@ -44,7 +44,8 @@ class AppointmentController extends Controller
 	{
 		$appointment->update($request->validated());
 
-		return redirect(route('appointments.index'))->with('success', __('appointments.alert.edit.success'));
+		// No need to redirect, this is an ajax submit
+		// return redirect(route('appointments.index'))->with('success', __('appointments.alert.edit.success'));
 	}
 
 	public function show(Appointment $appointment)
@@ -58,14 +59,14 @@ class AppointmentController extends Controller
 	{
 		$appointment->delete();
 
-		return redirect(route('frontend.appointments'))->with('success', __('appointments.alert.destroy.success'));
+		return redirect(route('appointments.index'))->with('success', __('appointments.alert.destroy.success'));
 	}
 
 	public function restore($id)
 	{
 		$page = Appointment::restoreAppointment($id);
 
-		return redirect(route('frontend.appointments'))->with('success', __('appointments.alert.restore.success'));
+		return redirect(route('appointments.index'))->with('success', __('appointments.alert.restore.success'));
 	}
 
 	public function search(SearchRequest $request)

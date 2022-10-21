@@ -24,32 +24,4 @@ $(document).ready(function() {
 			}
 		}
 	});
-
-	/* *** Submit an appointment form, via ajax *** */
-	// $(".create-appointment-form").submit(function (e) {
-	// 	e.preventDefault(); // avoid to execute the actual submit of the form.
-
-	// 	var form = $(this);
-	// 	var url = form.attr('action');
-
-	// 	$.ajax({
-	// 		type: "POST",
-	// 		url: url,
-	// 		data: form.serialize(),
-	// 		success: function (data) {
-	// 			$('.create-appointment-form').prepend(
-	// 				'<div class="alert alert-success">' +
-	// 					'Programarea a fost trimisă cu succes.' +
-	// 				'</div>'
-	// 			);
-	// 		},
-	// 		error: function (data) {
-	// 			$('.create-appointment-form').prepend(
-	// 				'<div class="alert alert-danger">' +
-	// 					'A intervenit o eroare la trimiterea programării. Te rugăm asigură-te că ai completat câmpurile obligatorii.' +
-	// 				'</div>'
-	// 			);
-	// 		}
-	// 	});
-	// });
 });

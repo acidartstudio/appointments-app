@@ -2961,6 +2961,33 @@ $(document).ready(function () {
     $(this).find('#' + activeCollapseSubmenuGroup).addClass('nav-item-open');
     $(this).find('#' + activeCollapseSubmenuGroup + '>ul').css('display', 'block');
   }
+  /*  Edit appointment form */
+
+
+  $('.edit-appointment-form').validate({
+    rules: {
+      status: 'required'
+    }
+  });
+  /* *** Change the status of an appointment form, via ajax *** */
+
+  $(".edit-appointment-form").submit(function (e) {
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+
+    var form = $(this);
+    var url = form.attr('action');
+    $.ajax({
+      type: "POST",
+      url: url,
+      data: form.serialize(),
+      success: function success(data) {
+        $('.edit-appointment-form').prepend('<div class="alert alert-success">' + 'Statusul a fost modificat cu succes.' + '</div>');
+      },
+      error: function error(data) {
+        $('.create-appointment-form').prepend('<div class="alert alert-danger">' + 'A intervenit o eroare la modificarea statusului. Te rugăm asigură-te că ai completat câmpurile obligatorii.' + '</div>');
+      }
+    });
+  });
 });
 
 /***/ }),
